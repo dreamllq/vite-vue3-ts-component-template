@@ -5,12 +5,12 @@
 </template>
 
 <script setup lang="ts">
-import { onMounted, ref } from 'vue'
-import { withBase, useRouter } from 'vitepress'
-const router = useRouter()
+import { onMounted, ref } from 'vue';
+import { withBase, useRouter } from 'vitepress';
+const router = useRouter();
 onMounted(() => {
-  router.go(withBase('/'))
-})
+  router.go(withBase('/'));
+});
 </script>
 
 <style scoped>
