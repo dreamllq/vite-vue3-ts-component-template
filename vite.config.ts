@@ -43,5 +43,6 @@ export default defineConfig({
         exports: 'named'
       }
     }
-  }
+  },
+  css: { preprocessorOptions: { scss: { silenceDeprecations: ['legacy-js-api'] } } }
 });
