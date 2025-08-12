@@ -12,6 +12,9 @@
   "[javascriptreact]": {
     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
   "[scss]": {
     "editor.defaultFormatter": "stylelint.vscode-stylelint",
   },
@@ -33,7 +36,8 @@
     "javascript",
     "javascriptreact",
     "vue",
-    "typescript"
+    "typescript",
+    "typescriptreact"
   ],
   "css.validate": false,
   "less.validate": false,
